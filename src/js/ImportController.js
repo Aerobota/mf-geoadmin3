@@ -214,7 +214,7 @@ goog.require('ngeo.fileService');
         });
 
       } else if (ngeoFile.isKml(data)) {
-       
+
         gaKml.addKmlToMap($scope.map, data, {
           url: file.url || URL.createObjectURL(file),
           useImageVector: gaKml.useImageVector(file.size),
